@@ -25,16 +25,16 @@ $(document).ready(function() {
   $("#qrl-footer *:contains('|')").each(function() {    
     $(this).html($(this).html().replace(/\|/g, ""));
   });
-  $("a[href*='.cbcnationalbankmortgage.com']").addClass("bypass-bump");
-  $("a[href$='security-privacy']").attr("href", "https://www.cbcnationalbankmortgage.com/privacy-and-security/");
-  // redirects privacy_statement to https://www.cbcnationalbankmortgage.com/privacy-and-security/
+  $("a[href*='.ffbf.com']").addClass("bypass-bump");
+  $("a[href$='security-privacy']").attr("href", "https://www.ffbf.com/security-privacy");
+  // redirects privacy_statement to https://www.ffbf.com/security-privacy
   if ($(".privacy_statement_redirect").length) {
-    window.location = "https://www.cbcnationalbankmortgage.com/privacy-and-security/"; 
+    window.location = "https://www.ffbf.com/security-privacy"; 
   }
-  $("a[href$='accessibility-statement']").attr("href", "https://www.cbcnationalbankmortgage.com/accessibility-statement/");  
-  // redirects accessibility to https://www.cbcnationalbankmortgage.com/accessibility-statement/
+  $("a[href$='accessibility-statement']").attr("href", "https://www.ffbf.com/accessibility-statement");  
+  // redirects accessibility to https://www.ffbf.com/accessibility-statement
   if ($(".accessibility_redirect").length) {
-    window.location = "https://www.cbcnationalbankmortgage.com/accessibility-statement/"; 
+    window.location = "https://www.ffbf.com/accessibility-statement"; 
   }
   $("#qrl-footer a").each(function() {
     $(this).text($(this).text().trim());
